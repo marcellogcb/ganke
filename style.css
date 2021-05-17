@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* Página home */
+body{
+    font-family: 'Poppins';
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+  background-image: white;
+  width: 100%;
+  height: 5rem;
+  border-style: solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: magenta;
+  text-transform: uppercase;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2000;
+}
+.logo{
+    width: 120px;
+    height: 60px;
+}
+.navbar .nav-item4 {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    height: 17px;
+    padding: 5px 10px;
+    margin: auto 0;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    text-shadow: 1px -1px 1px magenta;
+    z-index: 2;
+  }
+  
+  
+  .navbar .nav-item4::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    content: "";
+    height: 2px;
+    width: 0%;
+  
+    background-color: magenta;
+  
+    transition: .4s;
+  }
+  
+  .navbar .nav-item4:hover::after,
+  .navbar .nav-item4.active::after {
+    width: 100%;
+  }
+  .tab-content>section {
+    animation: up 1s;
+  } 
+  @keyframes animated {
+    0% {
+      border-width: 1px;
+    }
+    100% {
+      border-width: 10px;
+    }
+}
+
+.navbar .nav-item3 {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    height: 17px;
+    padding: 5px 10px;
+    margin: auto 0;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    text-shadow: 1px -1px 1px magenta;
+    z-index: 2;
+  }
+  
+  
+  .navbar .nav-item3::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    content: "";
+    height: 2px;
+    width: 0%;
+  
+    background-color: magenta;
+  
+    transition: .4s;
+  }
+  
+  .navbar .nav-item3:hover::after,
+  .navbar .nav-item3.active::after {
+    width: 100%;
+  }
+  .tab-content>section {
+    animation: up 1s;
+  } 
+  @keyframes animated {
+    0% {
+      border-width: 1px;
+    }
+    100% {
+      border-width: 10px;
+    }
+}
+
+.navbar .nav-item2 {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    height: 17px;
+    padding: 5px 10px;
+    margin: auto 0;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    text-shadow: 1px -1px 1px magenta;
+    z-index: 2;
+  }
+  
+  
+  .navbar .nav-item2::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    content: "";
+    height: 2px;
+    width: 0%;
+  
+    background-color: magenta;
+  
+    transition: .4s;
+  }
+  
+  .navbar .nav-item2:hover::after,
+  .navbar .nav-item2.active::after {
+    width: 100%;
+  }
+  .tab-content>section {
+    animation: up 1s;
+  } 
+  @keyframes animated {
+    0% {
+      border-width: 1px;
+    }
+    100% {
+      border-width: 10px;
+    }
+}
+
+.navbar .nav-item {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    height: 17px;
+    padding: 5px 10px;
+    margin: auto 0;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    text-shadow: 1px -1px 1px magenta;
+    z-index: 2;
+  }
+  
+  
+  .navbar .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    content: "";
+    height: 2px;
+    width: 0%;
+  
+    background-color: magenta;
+  
+    transition: .4s;
+  }
+  
+  .navbar .nav-item:hover::after,
+  .navbar .nav-item.active::after {
+    width: 100%;
+  }
+  .tab-content>section {
+    animation: up 1s;
+  } 
+  @keyframes animated {
+    0% {
+      border-width: 1px;
+    }
+    100% {
+      border-width: 10px;
+    }
+}
+.welcome {
+    font-family: 'Poppins', sans-serif !important;
+    width: 100%;
+    height: 4990px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+  }
+  .esquerda{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .direita{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .recorde{
+      color: green;
+      font-weight: bold;
+  }
+.produto{
+    text-align: center;
+    font-size: 1em;
+}
+.especificacoes{
+    font-size: 0.9em;
+}
+.confira{
+    text-align: center;
+}
+.correio{
+    text-align: center;
+}
+.rodape2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 3em;
+}
